@@ -1,7 +1,7 @@
 #include<stdlib.h>
 #include<stdio.h>
 using namespace std;
-void hanoi(int n,int x,int y ,int z)//x,y,z±íÊ¾A¡¢B¡¢C¸Ü
+void hanoi(int n,int x,int y ,int z)//x,y,zÂ±Ã­ÃŠÂ¾AÂ¡Â¢BÂ¡Â¢CÂ¸Ãœ
 {
 	if(n==1)
 	{
