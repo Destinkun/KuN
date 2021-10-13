@@ -10,6 +10,7 @@ int f(int n)
 }
  //递推方法
   int fun（int n）
+  {
         if(n==1)return 1;
         if(n==2)return 1;
 
@@ -25,6 +26,7 @@ int f(int n)
             Part1 = temp;
         }
         return sum;
+ }
 int main()
 {
 	cout<<f(6);
